@@ -1,0 +1,57 @@
+.organize{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-note{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202024;
+    border-radius: 10px;
+}
+
+.create-note form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-note form label{
+    position: fixed;
+    top: 30px;
+    left: 170px;
+} 
+
+.react-datepicker__input-container #date{
+    border: 1px solid rgba(29, 186, 99, 1);
+    border-radius: 4px;
+    background-color: #101014;
+    color: white;
+}
+
+
+.create-note .button-send{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    padding: 2px 170px;
+    background-color: rgba(4,211,97, 0.80);
+    border-radius: 20px;
+    border: 0.1px solid rgba(29, 186, 99, 1);
+
+    transition-property: background-color;
+    transition-duration: 0.2s;
+
+    color: #e5e5e5;
+
+    cursor: pointer;
+}
+
+.create-note .button-send:hover{
+    background-color: rgba(18, 18, 20, 1);
+}

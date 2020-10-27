@@ -1,0 +1,141 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    width: 550px;
+    height: 500px;
+    background-color: #202024;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.list::-webkit-scrollbar {
+    width: 5px;
+    height: 1px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: #666; 
+    border-radius: 20px;
+} 
+
+.list::-webkit-scrollbar-track {
+    background: #121214;
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #E8384F;
+    margin: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid rgba(4, 211, 97, 0);
+    transition-property: background-color, border-color,;
+    transition-duration: 0.3s;
+}
+
+.card:hover{
+    background-color: #121214;
+    border-color: rgba(232, 56, 79, 1);
+}
+
+.card .buttons{
+    margin: 10px;
+}
+
+.card .todo{
+    margin: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.card .todo label{
+    padding-left: 10px;
+}
+
+.card-complete{
+    background-color: rgba(29, 186, 99, 1);
+    margin: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid rgba(4, 211, 97, 0);
+    transition-property: background-color, border-color,;
+    transition-duration: 0.3s;
+}
+
+.card-complete:hover{
+    background-color: #121214;
+    border-color: rgba(29, 186, 99, 1);
+}
+
+.card-complete .buttons{
+    margin: 10px;
+}
+
+.card-complete .todo{
+    margin: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.card-complete .todo label{
+    padding-left: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex input{
+    background-color: #121214;
+    padding: 4px;
+    border-radius: 2px;
+    border: 1px solid #04d361;
+    color: white;
+    font-size: 21px;
+}
+
+.flex .enter{
+    color: white;
+}
+
+.flex button{
+    background-color: #121214;
+    padding: 7px;
+    padding-top: 7.8px;
+    border: none;
+    margin-left: 10px;
+    border: 1px solid #04d361;
+    cursor: pointer;
+    position: relative;
+    bottom: 1px;
+    border-radius: 2px;
+}
+
+.delete-button{
+    background-color: #121214;
+    padding: 4px 4px 1px 4px;
+    border: none;
+    cursor: pointer;
+
+    border-radius: 2px;
+}
+
+.delete-icon{
+    color: #e8384f;
+}
+
+
