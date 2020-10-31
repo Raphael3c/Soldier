@@ -20,7 +20,7 @@ export default function NoteCreate(){
   function saveCardTodo(e: FormEvent){
     e.preventDefault();
 
-    const dateNote= startDate.toLocaleDateString()
+    const dateNote = startDate.toLocaleDateString()
 
     let id = localStorage.length + 1;
 

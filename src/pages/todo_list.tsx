@@ -40,6 +40,8 @@ export default function Todolist(){
         
         const realCard : Card = JSON.parse(stringCard);
 
+        console.log(realCard);
+
         let takeID = 0;
 
         let i = 0;
