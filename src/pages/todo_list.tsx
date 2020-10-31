@@ -10,7 +10,7 @@ import '../styles/components/todo_list.css';
 
 export default function Todolist(){
 
-    const [stringCard, setStringCard] = useState<string>('');
+    const [setStringCard] = useState<string>('');
 
     const [mensage, setMensage] = useState('');
     
@@ -38,13 +38,13 @@ export default function Todolist(){
 
         e.preventDefault() 
         
-        const realCard : Card = JSON.parse(stringCard);
-
-        console.log(realCard);
-
         let takeID = 0;
 
         let i = 0;
+
+        if(realCard === undefined){
+            return
+        }
 
         while( i < realCard.arrayTodo.length){
             if(realCard.arrayTodo[i].id === takeID)
