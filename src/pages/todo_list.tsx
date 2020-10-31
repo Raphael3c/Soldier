@@ -10,8 +10,6 @@ import '../styles/components/todo_list.css';
 
 export default function Todolist(){
 
-    const [setStringCard] = useState<string>('');
-
     const [mensage, setMensage] = useState('');
     
     const [realCard, setRealCard] = useState<Card>();
@@ -20,15 +18,15 @@ export default function Todolist(){
 
     const [controlState, setControlState] = useState(false);
 
-    let item = localStorage.getItem(window.location.href.slice(31, window.location.href.length));
+    let getArrayURL = window.location.href.split("/"); 
+    let takeItem = getArrayURL[getArrayURL.length-1]
+    let item = localStorage.getItem(takeItem);
 
     useEffect(() => {
 
         if(item === null){
             return;
         }        
-
-        setStringCard(item);
 
         setRealCard(JSON.parse(item));
 
