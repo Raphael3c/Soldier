@@ -21,6 +21,8 @@ export default function Todolist(){
     let getArrayURL = window.location.href.split("/"); 
     let takeItem = getArrayURL[getArrayURL.length-1]
     let item = localStorage.getItem(takeItem);
+    
+    console.log(getArrayURL, takeItem, item);
 
     useEffect(() => {
 
