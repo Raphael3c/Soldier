@@ -115,9 +115,13 @@ export default function NoteList(){
         initial="out"
         animate="in"
         exit="out"        
-        variants={pageTransitionLeftRight}>
+        variants={pageTransitionLeftRight}
+        className="container-button"
+        >
           
-        <Link  to='/createNote'><FiPlus className='create-button' size={38}></FiPlus></Link>    
+        <button>
+          <Link  to='/createNote'><FiPlus className='create-button' size={38}></FiPlus></Link>  
+        </button>  
 
       </motion.div>
       

@@ -32,7 +32,7 @@ export default function Todolist(){
 
     }, [item])
 
-    function handleTodo(e: any){
+    function handleTodo(e: React.FormEvent){
 
         e.preventDefault() 
         
@@ -66,8 +66,7 @@ export default function Todolist(){
         setMensage('');
     }
 
-    function randomIntFromInterval(min: number, max: number) { // min and max included 
-
+    function randomIntFromInterval(min: number, max: number) { 
         return Math.floor(Math.random() * (max - min + 1) + min);
     }
 

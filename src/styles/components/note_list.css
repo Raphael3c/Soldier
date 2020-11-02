@@ -109,13 +109,15 @@
     transition-duration: 0.2s;
 
     color: #e5e5e5;
-
-    right: 20px
-
 }
 
 .create-button:hover{
     background-color: rgba(18, 18, 20, 1);
+}
+
+.container-button button{
+    background-color: #121214;
+    border: none;
 }
 
 .hide{
@@ -139,4 +141,18 @@
 .note .delete-button:hover{
     border: 1px solid rgba(232, 56, 79, 1);
     background-color: rgba(18,18,20,1);
+}
+
+
+/*Media Queries*/
+@media (max-width: 768px){
+    .content {
+        flex-direction: column;
+    }
+
+    .content ul{
+        margin-left: 30px;
+        bottom: 15px;
+        right: 0;
+    }
 }

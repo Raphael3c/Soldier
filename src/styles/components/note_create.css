@@ -24,7 +24,7 @@
 .create-note form label{
     position: fixed;
     top: 30px;
-    left: 170px;
+    left: 45%;
 } 
 
 .react-datepicker__input-container #date{
@@ -54,4 +54,29 @@
 
 .create-note .button-send:hover{
     background-color: rgba(18, 18, 20, 1);
+}
+
+.react-datepicker__input-container input{
+    text-align: center;
+}
+
+@media (max-width: 375px){
+    .create-note{
+        width: 350px;
+    }
+
+    .create-note .button-send{
+        padding: 2px 149px;
+    }
+}
+
+
+@media (max-width: 320px){
+    .create-note{
+        width: 305px;
+    }
+
+    .create-note .button-send{
+        padding: 2px 127px;
+    }
 }
