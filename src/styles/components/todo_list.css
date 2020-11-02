@@ -154,6 +154,22 @@
 }
 
 
+@media(max-width: 768px){
+
+    .list{
+        width: 467px;
+    }
+
+    .flex button{
+        padding: 6.5px;
+    }
+
+    .flex input{
+        font-size: 19px;
+    }
+}
+
+
 @media(max-width: 375px){
 
     .list{
