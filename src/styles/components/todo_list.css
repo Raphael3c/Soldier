@@ -141,21 +141,6 @@
     color: #e8384f;
 }
 
-@media(max-width: 425px){
-
-    .list{
-        width: 406px;
-    }
-
-    .flex button{
-        padding: 7px;
-    }
-
-    .flex input{
-        font-size: 21px;
-    }
-}
-
 
 @media(max-width: 768px){
 
@@ -172,6 +157,20 @@
     }
 }
 
+@media(max-width: 425px){
+
+    .list{
+        width: 406px;
+    }
+
+    .flex button{
+        padding: 7px;
+    }
+
+    .flex input{
+        font-size: 21px;
+    }
+}
 
 @media(max-width: 375px){
 
