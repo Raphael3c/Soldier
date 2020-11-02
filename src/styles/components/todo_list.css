@@ -142,10 +142,11 @@
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 768px) and (max-height: 509px){
 
     .list{
         width: 467px;
+        height: 300px;
     }
 
     .flex button{

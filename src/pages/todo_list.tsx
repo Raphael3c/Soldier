@@ -134,7 +134,12 @@ export default function Todolist(){
 
                     <div className="flex">
                         <form onSubmit={handleTodo}>
-                            <input id="btnsubmit" type="text" placeholder="To do..." value={mensage} onChange={e => setMensage(e.target.value)}/>
+                            <input 
+                                id="btnsubmit" 
+                                type="text" placeholder="To do..." 
+                                autoComplete="off" 
+                                value={mensage} onChange={e => setMensage(e.target.value)}/>
+                                
                             <button type="submit"><FiCornerDownRight className="enter"/></button>
                         </form>
                     </div>
