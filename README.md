@@ -9,3 +9,5 @@
 <h4 align="center"> 
 	🚧  Soldier 📒 Em construção...  🚧
 </h4>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/94aced1d-5229-4a78-b67a-ba0bed541702/deploy-status)](https://app.netlify.com/sites/projectsoldier/deploys)
