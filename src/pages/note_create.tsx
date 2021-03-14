@@ -9,13 +9,13 @@ import {useHistory} from 'react-router-dom'
 import "react-datepicker/dist/react-datepicker.css";
 import '../styles/components/note_create.css';
 import Card from '../utils/interfaceCard';
+import randomIntFromInterval from "../utils/randomIntFromInterval";
 
 export default function NoteCreate(){
 
   const history = useHistory();
 
   const [startDate, setStartDate] = useState(new Date());
-
 
   function saveCardTodo(e: FormEvent){
     e.preventDefault();
@@ -24,7 +24,7 @@ export default function NoteCreate(){
 
     let id = localStorage.length + 1;
 
-    // Verifies if ID is already in use. 
+    // Verifies if ID is already in use. If is, then take another ID. 
     if(localStorage.getItem(id.toString()) !== null){
       id = localStorage.length * randomIntFromInterval(1, 1000) + localStorage.length;
     }
@@ -39,10 +39,6 @@ export default function NoteCreate(){
 
     history.push("/")
 
-  }
-
-  function randomIntFromInterval(min: number, max: number) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
   return(

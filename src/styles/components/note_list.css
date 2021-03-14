@@ -145,6 +145,18 @@
 
 
 /*Media Queries*/
+
+@media (max-width: 1024px){
+    .content ul{
+        margin-left: 30px;
+    }
+
+    .content .create-button{
+        margin-right: 10px;
+    }
+}
+
+
 @media (max-width: 768px){
     .content {
         flex-direction: column;
