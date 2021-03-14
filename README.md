@@ -1,6 +1,3 @@
 # Soldier
 
-<p align="center">This is a simple todo-list whit a modest animation, that i use every day to make me feel better after complete some task and mark it in the list.</p>
-https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>&style=<STYLE>&logo=<LOGO>
-https://img.shields.io/github/license/Raphael3c/Soldier
-
+<p align="center">Essa aplicação é uma lista de afazeres bem simples que possui animações modestas! :D </p>
