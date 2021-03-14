@@ -1,4 +1,4 @@
-# Soldier
+# Soldier ![Logo of the project](https://github.com/Raphael3c/Soldier/blob/master/public/list.png)
+
 
 <p align="center">Essa aplicação é uma lista de afazeres bem simples que possui animações modestas! :D </p>
-*teste
