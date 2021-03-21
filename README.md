@@ -13,4 +13,4 @@
 
 
 ## Acesse <3 <3
-###https://projectsoldier.netlify.app/
+https://projectsoldier.netlify.app/
